@@ -1,0 +1,135 @@
+
+<html>
+<head>
+<title>My site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+p.text-image {
+text-align: right;
+color: azure;
+}
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: 100% 100%;
+    background-position:center;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: darkgray;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: fuchsia;
+}
+
+li {
+    display: inline;
+}
+</style>
+<script type="text/javascript">
+ function fish1() {
+    alert("oneFish");
+  }
+</script>
+</head>
+<body>
+<div class="container">
+<marquee behavior="scroll" direction="right" scrollamount="15">
+    My StUpId WeBsItE!
+<img src="giphy.gif" alt="Swimming fish">
+
+</marquee>
+<hr />
+<ul>
+<li><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal">One Fish</a></li>
+<li><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModalTwo" >Two Fish</a></li>
+<li><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModalThree">Four Fish</a></li>
+</ul>
+</div>
+<!-- Modal 3-->
+<div id="myModalThree" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Four fish!!!</h4>
+      </div>
+      <div class="modal-body">
+        <img src="4Fish.gif" align="middle">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Modal 3-->
+<div id="myModalTwo" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Three fish!!!</h4>
+      </div>
+      <div class="modal-body">
+        <img src="two.gif" align="middle">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- this is my modal -->
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">One Fish</h4>
+        </div>
+        <div class="modal-body">
+          <marquee behavior="scroll" direction="right" scrollamount="15">
+            awww... am all alone!!!
+          <img src="giphy.gif" alt="Swimming fish">
+          </marquee>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>
